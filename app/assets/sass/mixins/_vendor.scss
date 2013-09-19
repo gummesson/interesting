@@ -1,0 +1,12 @@
+//==========
+//  Vendor
+//==========
+//
+// Usage:
+// @include vendor(box-sizing, border-box);
+//
+@mixin vendor($property, $value) {
+  @each $prefix in $prefixes {
+    #{$prefix}#{$property}: #{$value};
+  }
+}

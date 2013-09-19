@@ -1,0 +1,52 @@
+//==========
+//  Widths
+//==========
+
+// Default widths
+$default-widths: (
+  ("one-whole", "100%"),
+  ("nine-tenths", "90%"),
+  ("four-fifths", "80%"),
+  ("three-quarters", "75%"),
+  ("seven-tenths", "70%"),
+  ("two-thirds", "66.666%"),
+  ("three-fifths", "60%"),
+  ("one-half", "50%"),
+  ("two-fifths", "40%"),
+  ("one-third", "33.333%"),
+  ("three-tenths", "30%"),
+  ("one-quarter", "25%"),
+  ("one-fifth", "20%"),
+  ("one-tenth", "10%")
+);
+
+// The `palm` widths
+$palm-widths: (
+  ("one-whole", "100%"),
+  ("one-half", "50%")
+);
+
+// The `lap` widths
+$lap-widths: (
+  ("one-whole", "100%"),
+  ("three-quarters", "75%"),
+  ("one-half", "50%"),
+  ("one-quarter", "25%")
+);
+
+// The `portable` widths
+$portable-widths: (
+  ("one-whole", "100%"),
+  ("four-fifths", "80%"),
+  ("three-quarters", "75%"),
+  ("two-thirds", "66.666%"),
+  ("three-fifths", "60%"),
+  ("one-half", "50%"),
+  ("two-fifths", "40%"),
+  ("one-third", "33.333%"),
+  ("one-quarter", "25%"),
+  ("one-fifth", "20%")
+);
+
+// The `desk` widths
+$desk-widths: ($default-widths);

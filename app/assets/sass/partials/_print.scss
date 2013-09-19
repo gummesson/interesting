@@ -1,0 +1,8 @@
+/*-----------
+    Print
+-----------*/
+
+.print--small {
+  @extend %font--milli;
+  @extend %font--italic;
+}

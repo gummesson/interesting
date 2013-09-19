@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="Interesting">
+<head>
+  <meta charset="utf-8">
+  <meta name="fragment" content="!">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Interesting</title>
+  <link href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700" rel="stylesheet">
+  <link rel="shortcut icon" href="/assets/img/favicon.ico">
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body class="l-container">
+  <header class="l-header">
+    <h1 class="l-logo">
+      <a href="/" alt="Interesting">
+        Interesting
+      </a>
+    </h1>
+    <p class="print--small">
+      A collection of midly interesting links
+    </p>
+  </header>
+  <div class="l-main" ng-view ng-cloak>
+    <!-- Views go here -->
+  </div>
+  <footer class="l-footer">
+    <p class="print--small">
+      Another small thing by <a href="http://ellengummesson.com/">Ellen Gummesson</a>.
+      Powered by <a href="http://angularjs.org/">AngularJS</a>.
+      Source on <a href="http://github.com/gummesson/interesting">Github</a>.
+    </p>
+  </footer>
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.8/angular.min.js"></script>
+  <script src="/assets/js/app.js"></script>
+</body>
+</html>

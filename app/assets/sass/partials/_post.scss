@@ -1,0 +1,27 @@
+/*----------
+    Post
+----------*/
+
+.post {}
+
+  .post__title {
+    margin-bottom: $base-spacing-unit / 10; 
+
+    &:after {
+      @extend %color--brand;
+      content: " \2192";
+    }
+  }
+
+  .post__meta {
+    @extend %font--milli;
+    @extend %font--italic;
+  }
+
+    .post__meta--separator {
+      @extend %color--brand;
+    }
+
+    .post__meta--permalink {
+      @extend %color--brand;
+    }

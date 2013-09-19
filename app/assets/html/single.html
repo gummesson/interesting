@@ -1,0 +1,15 @@
+    <article class="post">
+      <h1 class="post__title">
+        <a href="{{ link.url }}" alt="{{ link.title }}">
+          {{ link.title }}
+        </a>
+      </h1>
+      <p class="post__meta">
+        {{ link.date }}
+        <span class="post__meta--separator">//</span>
+        {{ link.tag }}
+      </p>
+      <p>
+        <q>{{ link.desc }}</q>
+      </p>
+    </article>

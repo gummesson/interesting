@@ -1,0 +1,15 @@
+/*----------
+    Body
+----------*/
+
+* {
+  @include vendor(box-sizing, border-box);
+}
+
+body {
+  padding: 0 $base-spacing-unit;
+  background-color: $color-background;
+  color: $color-font;
+  font: $base-font-weight #{$base-font-percent}/#{$base-line-height} $base-font-family;
+  text-shadow: 0 1px 0 $color-complement;
+}

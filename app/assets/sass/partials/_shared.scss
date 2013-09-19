@@ -1,0 +1,34 @@
+/*-----------
+    Shared
+-----------*/
+
+// Margins
+%margin-bottom--full {
+  margin-bottom: $base-spacing-unit;
+}
+
+%margin-bottom--none {
+  margin-bottom: 0;
+}
+
+// Font
+%font--bold {
+  font-weight: bold;
+}
+
+%font--italic {
+  font-style: italic;
+}
+
+%font--milli {
+  font-size: $base-font-size * 0.875;
+}
+
+%font--micro {
+  font-size: $base-font-size * 0.75;
+}
+
+// Colors
+%color--brand {
+  color: $color-brand;
+}

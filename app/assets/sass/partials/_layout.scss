@@ -1,0 +1,26 @@
+/*------------
+    Layout
+------------*/
+
+.l-container {
+  margin: 0 auto;
+  max-width: $base-wrapper-width;
+}
+
+.l-header {
+  margin: ($base-spacing-unit * 2) 0;
+}
+
+  .l-logo {
+    margin-bottom: $base-spacing-unit / 10; 
+
+    &:before {
+      @extend %color--brand;
+      content: "\0023 ";
+    }
+  }
+
+.l-main,
+.l-footer {
+  margin-bottom: $base-spacing-unit * 2;
+}
