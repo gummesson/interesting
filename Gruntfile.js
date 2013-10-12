@@ -14,11 +14,13 @@ module.exports = function(grunt) {
 
     concat: {
       js: {
-        src: ['lib/intro.js',
-              'lib/app.js',
-              'lib/services.js',
-              'lib/controllers.js',
-              'lib/outro.js'],
+        src: [
+          'lib/intro.js',
+          'lib/app.js',
+          'lib/services.js',
+          'lib/controllers.js',
+          'lib/outro.js'
+        ],
         dest: 'app/assets/js/app.js',
         nonull: true
       }
@@ -30,15 +32,6 @@ module.exports = function(grunt) {
           style: 'compressed'
         },
 
-        files: {
-          'app/assets/css/style.css' : 'app/assets/sass/style.scss'
-        }
-      },
-
-      debug: {
-        options: {
-          style: 'expanded'
-        },
         files: {
           'app/assets/css/style.css' : 'app/assets/sass/style.scss'
         }
@@ -59,13 +52,13 @@ module.exports = function(grunt) {
   grunt.registerTask('default', [
     'concat',
     'jshint',
-    'sass:build'
+    'sass'
   ]);
 
   grunt.registerTask('serve', [
     'concat',
     'jshint',
-    'sass:debug',
+    'sass',
     'connect'
   ]);
 
