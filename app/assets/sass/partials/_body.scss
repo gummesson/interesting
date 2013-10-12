@@ -6,10 +6,13 @@
   @include vendor(box-sizing, border-box);
 }
 
+html {
+  font: $base-font-weight #{$base-font-percent}/#{$base-line-height} $base-font-family;
+}
+
 body {
   padding: 0 $base-spacing-unit;
-  background-color: $color-background;
-  color: $color-font;
-  font: $base-font-weight #{$base-font-percent}/#{$base-line-height} $base-font-family;
-  text-shadow: 0 1px 0 $color-complement;
+  background-color: $base-background-color;
+  color: $base-font-color;
+  text-shadow: 0 1px 0 $dark-ui-color;
 }

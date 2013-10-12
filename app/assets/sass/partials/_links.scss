@@ -10,7 +10,7 @@ a {
   &:hover,
   &:focus,
   &:active {
-    border-bottom: 1px solid $color-brand;
+    border-bottom: 1px solid $base-ui-color;
   }
 
   &:active {

@@ -8,7 +8,7 @@
     margin-bottom: $base-spacing-unit / 10; 
 
     &:after {
-      @extend %color--brand;
+      @extend %color--ui;
       content: " \2192";
     }
   }
@@ -19,9 +19,9 @@
   }
 
     .post__meta--separator {
-      @extend %color--brand;
+      @extend %color--ui;
     }
 
     .post__meta--permalink {
-      @extend %color--brand;
+      @extend %color--ui;
     }

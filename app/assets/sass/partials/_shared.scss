@@ -3,11 +3,11 @@
 -----------*/
 
 // Margins
-%margin-bottom--full {
+%push--bottom {
   margin-bottom: $base-spacing-unit;
 }
 
-%margin-bottom--none {
+%flush--bottom {
   margin-bottom: 0;
 }
 
@@ -29,6 +29,6 @@
 }
 
 // Colors
-%color--brand {
-  color: $color-brand;
+%color--ui {
+  color: $base-ui-color;
 }
